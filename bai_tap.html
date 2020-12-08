@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let inputobject
+        let inputchemistry
+        let inputbiological
+        inputobject = parseInt(prompt('nhập object'))
+        inputchemistry = parseInt(prompt('nhập chemistry'))
+        inputbiological = parseInt(prompt('nhập biological'))
+        let area = inputobject + inputchemistry + inputbiological
+        document.write("area= " + area);
+        document.write("<br/>")
+        let biological = area / 3
+        document.write("trungbinh= " + biological);
+        document.write("<br>")
+        let celsius = parseInt(prompt("nhập celcius"))
+        let f = 9 / 5 * celsius + 32
+        document.write("f=" + f)
+        document.write("<br/>");
+        let R = parseInt(prompt("Nhập R"))
+        let S = R * 3.14
+        document.write("S =" + S)
+        document.write("<br/>");
+        let C = 2 * 3.14 * R
+        document.write("C =" + C)
+    </script>
+
+</body>
+
+</html>
